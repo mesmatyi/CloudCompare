@@ -1,0 +1,21 @@
+{
+	"type" : "Standard",
+	"name" : "Lanelet2 Map Demo",
+	"description": "Create a minimal Lanelet2 map from the selected point cloud.",
+	"authors" : [
+		{
+			"name" : "GitHub Copilot"
+		}
+	],
+	"maintainers" : [
+		{
+			"name" : "GitHub Copilot"
+		}
+	],
+	"references" : [
+		{
+			"text" : "Lanelet2 repository",
+			"url" : "https://github.com/fzi-forschungszentrum-informatik/lanelet2"
+		}
+	]
+}

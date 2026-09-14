@@ -88,6 +88,8 @@ Thus, the Cmake command becomes
 cmake .. -DPLUGIN_STANDARD_QPCL=ON -DPLUGIN_GL_QEDL=ON
 ```
 
+To build the demo Lanelet2 exporter plugin from `plugins/example/Lanelet2MapDemo`, add `-DPLUGIN_EXAMPLE_LANELET2_MAP_DEMO=ON`.
+
 The optional features are:
 
 |     CMake Option      | Default Value | Description
