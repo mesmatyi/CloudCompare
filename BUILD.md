@@ -90,6 +90,22 @@ cmake .. -DPLUGIN_STANDARD_QPCL=ON -DPLUGIN_GL_QEDL=ON
 
 To build the demo Lanelet2 exporter plugin from `plugins/example/Lanelet2MapDemo`, add `-DPLUGIN_EXAMPLE_LANELET2_MAP_DEMO=ON`.
 
+### Linux AppImage
+
+On Linux, after configuring and building CloudCompare, you can package an AppImage with:
+
+```shell
+cmake --build build --target appimage
+```
+
+or:
+
+```shell
+/home/runner/work/CloudCompare/CloudCompare/scripts/linux/build-appimage.sh /absolute/path/to/build
+```
+
+This packaging flow expects `linuxdeploy` and its Qt plugin to already be installed and available in `PATH` (or passed via the `LINUXDEPLOY` environment variable).
+
 The optional features are:
 
 |     CMake Option      | Default Value | Description

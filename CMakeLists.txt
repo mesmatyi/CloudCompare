@@ -16,6 +16,7 @@ list( APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/" )
 include( CMakePolicies )
 include( CMakeSetCompilerOptions )
 include( DeployQt )
+include( LinuxAppImageDeploy )
 
 # CCViewer
 option( OPTION_BUILD_CCVIEWER "Check to compile CCViewer project" ON )
@@ -69,6 +70,7 @@ add_subdirectory( plugins )
 
 # qCC
 add_subdirectory( qCC )
+AddLinuxAppImageTarget()
 
 # CCViewer
 if( OPTION_BUILD_CCVIEWER )

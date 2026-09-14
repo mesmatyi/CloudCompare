@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=CloudCompare
+GenericName=3D Point Cloud Processing
+Comment=Process point clouds and export Lanelet2 demo catalogs
+Exec=CloudCompare %F
+Icon=cloudcompare
+Terminal=false
+Categories=Graphics;Science;
+MimeType=application/octet-stream;

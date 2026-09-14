@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.cloudcompare.CloudCompare</id>
+  <name>CloudCompare</name>
+  <summary>3D point cloud processing with a Lanelet2 demo catalog exporter</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>CloudCompare is a 3D point cloud processing application.</p>
+    <p>This package also includes the Lanelet2 catalog demo plugin for creating simple lane and object map exports from selected point clouds.</p>
+  </description>
+  <launchable type="desktop-id">org.cloudcompare.CloudCompare.desktop</launchable>
+  <categories>
+    <category>Graphics</category>
+    <category>Science</category>
+  </categories>
+</component>
